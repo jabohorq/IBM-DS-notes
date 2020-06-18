@@ -1,0 +1,12 @@
+CLONE EXISTING REPOSITORY ON GITHUB:
+> git clone URL
+STATUS REPO
+> git status
+ADD CHANGES TO FILE
+> git add file_name
+ADD EVERYTHING
+> git add .
+COMMIT
+> git commit -m 'description'
+SEND CHANGES TO GITHUB REPOSITORY
+> git push 
