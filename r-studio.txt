@@ -1,0 +1,22 @@
+R STUDIO
+R studio is IDE (Integrated Development Environment)
+R is open source
+
+>getwd (get working directory)
+data frame:
+>df=read.csv('file_name', header=FALSE)
+>View(df) 
+Install packages
+>install.packages('package_name')
+Load package
+>library(package_name)
+ Plotting example
+> x = rnorm(100)
+> y = rnorm(100, sd=10)
+> df = data.frame(x,y)
+> View(df)
+> library(ggplot2)
+> ggplot(df, aes(x = x, y = y)) + geom_point()
+> View(mtcars)
+> my_plot <- ggplot(mtcars, aes(x=wt, y=mpg))
+> my_plot + xlab('Weight (x 1000 lbs)') + ylab('MPG') + geom_smooth()
